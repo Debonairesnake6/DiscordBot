@@ -34,7 +34,7 @@ async def addchannel(ctx):
  
 async def my_background_task():
     await client.wait_until_ready()
-    channel = discord.Object(id='409941922388639744')
+    channel = discord.Object(id='MAKECHANNELFILE')
     while not client.is_closed:
 
         now = datetime.now()
@@ -58,4 +58,4 @@ async def my_background_task():
 
 client.loop.create_task(my_background_task())
 
-client.run("NDM2NzI1OTg2Njg4NDk5NzQy.DbrsaA.aLKkZ-YT8npp12AK9auj7DrSVLk")
+client.run("MAKERUNFILE")
